@@ -16,12 +16,13 @@ body {
 }
 
 form {
-    background-color: #eee8e8;
+    background-color: rgba(255, 255, 255, 0.2);
     padding: 50px;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 400px;
     transition: box-shadow 0.3s ease;
+    backdrop-filter: blur(10px);    
 }
 
 form:hover {
